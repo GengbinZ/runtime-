@@ -15,6 +15,10 @@
 		091D19151F4AD3E70024A5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091D19131F4AD3E70024A5F3 /* LaunchScreen.storyboard */; };
 		091D19201F4AD3E70024A5F3 /* runtime_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D191F1F4AD3E70024A5F3 /* runtime_________Tests.m */; };
 		091D192B1F4AD3E70024A5F3 /* runtime_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D192A1F4AD3E70024A5F3 /* runtime_________UITests.m */; };
+		091D193A1F4AD42B0024A5F3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D19391F4AD42B0024A5F3 /* Person.m */; };
+		091D193D1F4B17780024A5F3 /* NSURL+url.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D193C1F4B17780024A5F3 /* NSURL+url.m */; };
+		091D19431F4B26C10024A5F3 /* PersonOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D19421F4B26C10024A5F3 /* PersonOne.m */; };
+		091D19461F4B3E470024A5F3 /* Person+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D19451F4B3E470024A5F3 /* Person+AddProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		091D19261F4AD3E70024A5F3 /* runtime动态修改属性和方法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "runtime动态修改属性和方法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		091D192A1F4AD3E70024A5F3 /* runtime_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "runtime_________UITests.m"; sourceTree = "<group>"; };
 		091D192C1F4AD3E70024A5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091D19381F4AD42B0024A5F3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		091D19391F4AD42B0024A5F3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		091D193B1F4B17780024A5F3 /* NSURL+url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+url.h"; sourceTree = "<group>"; };
+		091D193C1F4B17780024A5F3 /* NSURL+url.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+url.m"; sourceTree = "<group>"; };
+		091D19411F4B26C10024A5F3 /* PersonOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonOne.h; sourceTree = "<group>"; };
+		091D19421F4B26C10024A5F3 /* PersonOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonOne.m; sourceTree = "<group>"; };
+		091D19441F4B3E470024A5F3 /* Person+AddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+AddProperty.h"; sourceTree = "<group>"; };
+		091D19451F4B3E470024A5F3 /* Person+AddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+AddProperty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				091D19091F4AD3E70024A5F3 /* AppDelegate.m */,
 				091D190B1F4AD3E70024A5F3 /* ViewController.h */,
 				091D190C1F4AD3E70024A5F3 /* ViewController.m */,
+				091D19381F4AD42B0024A5F3 /* Person.h */,
+				091D19391F4AD42B0024A5F3 /* Person.m */,
+				091D19441F4B3E470024A5F3 /* Person+AddProperty.h */,
+				091D19451F4B3E470024A5F3 /* Person+AddProperty.m */,
+				091D19411F4B26C10024A5F3 /* PersonOne.h */,
+				091D19421F4B26C10024A5F3 /* PersonOne.m */,
+				091D193B1F4B17780024A5F3 /* NSURL+url.h */,
+				091D193C1F4B17780024A5F3 /* NSURL+url.m */,
 				091D190E1F4AD3E70024A5F3 /* Main.storyboard */,
 				091D19111F4AD3E70024A5F3 /* Assets.xcassets */,
 				091D19131F4AD3E70024A5F3 /* LaunchScreen.storyboard */,
@@ -207,6 +227,7 @@
 				TargetAttributes = {
 					091D19011F4AD3E70024A5F3 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LJN2D459KZ;
 						ProvisioningStyle = Automatic;
 					};
 					091D191A1F4AD3E70024A5F3 = {
@@ -274,8 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				091D190D1F4AD3E70024A5F3 /* ViewController.m in Sources */,
+				091D19461F4B3E470024A5F3 /* Person+AddProperty.m in Sources */,
+				091D193D1F4B17780024A5F3 /* NSURL+url.m in Sources */,
 				091D190A1F4AD3E70024A5F3 /* AppDelegate.m in Sources */,
+				091D193A1F4AD42B0024A5F3 /* Person.m in Sources */,
 				091D19071F4AD3E70024A5F3 /* main.m in Sources */,
+				091D19431F4B26C10024A5F3 /* PersonOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LJN2D459KZ;
 				INFOPLIST_FILE = "runtime动态修改属性和方法/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zst.a.runtime---------";
@@ -437,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LJN2D459KZ;
 				INFOPLIST_FILE = "runtime动态修改属性和方法/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zst.a.runtime---------";
@@ -509,6 +536,7 @@
 				091D19311F4AD3E70024A5F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		091D19321F4AD3E70024A5F3 /* Build configuration list for PBXNativeTarget "runtime动态修改属性和方法Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +545,7 @@
 				091D19341F4AD3E70024A5F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		091D19351F4AD3E70024A5F3 /* Build configuration list for PBXNativeTarget "runtime动态修改属性和方法UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +554,7 @@
 				091D19371F4AD3E70024A5F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
