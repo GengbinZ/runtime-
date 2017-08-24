@@ -22,7 +22,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
+    
+//    //获取成员变量列表
+//    [self getIvarList];
+//    //获取属性列表
+//    [self getPropertyList];
+//    //获取方法列表
+//    [self getMethodList];
+//    //获取协议列表
+//    [self getProtocolList];
+//    //交换方法
+//    [self exchangeMethod];
+//    //方法的懒加载：外部隐式调用一个不存在的方法，即动态添加方法
+//    [self addMethod];
+    //添加属性
     [self addProperty];
     
 }
